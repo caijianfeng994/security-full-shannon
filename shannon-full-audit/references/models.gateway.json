@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "custom-gateway": {
+      "baseUrl": "https://YOUR_AI_GATEWAY_HOST/v1",
+      "api": "openai-completions",
+      "apiKey": "YOUR_API_KEY",
+      "models": [
+        {
+          "id": "deepseek-v4-pro",
+          "name": "DeepSeek V4 Pro via custom AI gateway",
+          "input": ["text"],
+          "compat": {
+            "supportsDeveloperRole": false,
+            "supportsReasoningEffort": false
+          }
+        }
+      ]
+    }
+  }
+}
